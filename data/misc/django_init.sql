@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS swasey_mgmt_db;
-CREATE DATABASE swasey_mgmt_db;
+DROP DATABASE IF EXISTS swasey_db;
+CREATE DATABASE swasey_db;
 
-\c swasey_mgmt_db
+\c swasey_db
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
