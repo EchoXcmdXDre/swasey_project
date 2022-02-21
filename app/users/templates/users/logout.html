@@ -1,5 +1,14 @@
-{% extends "tutorials/base.html" %} {% load static %}{% block title %} NuCamp:
-Logout {% endblock%} {% block content%}
+<!-- {% extends "apartments/base.html" %} {% load static %}{% block title %} NuCamp:
+Logout {% endblock%} {% block content%} -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logged Out</title>
+</head>
 
 <div class="container">
   <div class="row">
@@ -18,11 +27,11 @@ Logout {% endblock%} {% block content%}
     </h5>
     <form class="form-signin">
       <div class="form-group">
-        <a class="btn btn-lg btn-primary btn-block" href="{% url 'login' %}"
-          >Login Again</a
-        >
+        <a class="btn btn-lg btn-primary btn-block" href="{% url 'login' %}">Login Again</a>
       </div>
     </form>
   </div>
 </div>
-{% endblock %} {% block jsfiles %} {% endblock jsfiles %}
+
+</html>
+<!-- {% endblock %} {% block jsfiles %} {% endblock jsfiles %} -->

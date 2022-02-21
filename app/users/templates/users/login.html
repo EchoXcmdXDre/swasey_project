@@ -1,5 +1,14 @@
-{% extends "apartment/base.html" %} {% load static %}{% block title %} User:
-Login {% endblock%} {% block content%}
+<!-- {% extends "apartment/base.html" %} {% load static %}{% block title %} User:
+Login {% endblock%} {% block content%} -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
 
 <div class="container">
   <div class="row">
@@ -14,7 +23,7 @@ Login {% endblock%} {% block content%}
   </div>
   <div class="row row-content">
     <form method="POST" class="form-signin form-group">
-      {% csrf_token %}
+      <!-- {% csrf_token %} -->
       <div class="form-group row">
         <label for="username" class="col-md-4 col-form-label">Username</label>
         <div class="col-md-8">
@@ -43,4 +52,6 @@ Login {% endblock%} {% block content%}
     </form>
   </div>
 </div>
-{% endblock %} {% block jsfiles %} {% endblock jsfiles %}
+
+</html>
+<!-- {% endblock %} {% block jsfiles %} {% endblock jsfiles %} -->
